@@ -35,5 +35,6 @@ def health():
         redis_status = str(e)
     return jsonify({"status": "ok", "redis": redis_status})
 
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
