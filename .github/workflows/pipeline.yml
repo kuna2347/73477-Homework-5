@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}/webapp
+  IMAGE_NAME: kuna2347/73477-homework-5/webapp
 
 jobs:
   lint:
